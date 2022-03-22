@@ -116,7 +116,7 @@
     line-height: 2rem;
     font-family: 'Montserrat';
 }
-#explrDiv{
+.explrDiv{
     width: 10.313rem;
     height: 3.75rem;
     background: rgba(255, 255, 255, 0.04);
@@ -126,7 +126,7 @@
     border-radius: 0.625rem;
     position: absolute;
 }
-#explrDiv > p {
+.explrDiv > p {
     color: #FFFFFF;
     font-size: 1.063rem;
     font-weight: 700;
@@ -192,9 +192,8 @@
     left: 15rem;
 }
 #projectSec{
-    border: 1px solid white;
     width: 65.813rem;
-    height: 107.5rem;
+    height: 90.5rem;
     left: 11rem;
     top: 105.813rem;
     position: absolute;
@@ -256,19 +255,17 @@
     margin-top: -1%;
 }
 #projectCardCont {
-    height: 68rem;
+    height: 60rem;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 1%;
 }
 .projectsCard{
-    border: 1px solid red;
     height: 35rem;
     width: 47%;
 }
 .subPrjDiv{
-    border: 1px solid white;
     width: 31rem;
     height: 26rem;
     background-color: rgba(255, 255, 255, 0.14);
@@ -303,12 +300,107 @@
     top: 9.8rem;
     left: 4.6rem;
 }
-.projectsCard > p:nth-child(1) {
-    color: rgba(255, 255, 255, 0.2);
+#paraPrj1{
+    color: rgba(255, 255, 255, 0.2);;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 2.125rem;
     font-family: 'Noto Sans';
     position: absolute;
-    top: 10rem;
+    top: 42.5rem;
+    left: 5.5rem;
+}
+#paraPrj2{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2rem;
+    font-family: 'Noto Sans';
+    position: absolute;
+    top: 44.5rem;
+    left: 7.5rem;
+}
+#paraPrj3{
+    color: rgba(255, 255, 255, 0.2);;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 2.125rem;
+    font-family: 'Noto Sans';
+    position: absolute;
+    top: 42.5rem;
+    right: 11rem;
+}
+#paraPrj4{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2rem;
+    font-family: 'Noto Sans';
+    position: absolute;
+    top: 44.5rem;
+    right: 13rem;
+}
+#paraPrj5{
+    color: rgba(255, 255, 255, 0.2);;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 2.125rem;
+    font-family: 'Noto Sans';
+    position: absolute;
+    top: 78.5rem;
+    left: 5.5rem;
+}
+#paraPrj6{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2rem;
+    font-family: 'Noto Sans';
+    position: absolute;
+    top: 80.5rem;
+    left: 7.5rem;
+}
+#paraPrj7{
+    color: rgba(255, 255, 255, 0.2);;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 2.125rem;
+    font-family: 'Noto Sans';
+    position: absolute;
+    top: 78.5rem;
+    right: 11rem;
+}
+#paraPrj8{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 2rem;
+    font-family: 'Noto Sans';
+    position: absolute;
+    top: 80.5rem;
+    right: 13rem;
+}
+#prjBtn1{
+    top: 47rem;
+    left: 8.5rem;
+    height: 3rem;
+    width: 9.5rem;
+}
+#prjBtn2{
+    top: 47rem;
+    right: 15.5rem;
+    height: 3rem;
+    width: 9.5rem;
+}
+#prjBtn3{
+    top: 83rem;
+    left: 8.5rem;
+    height: 3rem;
+    width: 9.5rem;
+}
+#prjBtn4{
+    top: 83rem;
+    right: 15.5rem;
+    height: 3rem;
+    width: 9.5rem;
 }

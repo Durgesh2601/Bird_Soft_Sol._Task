@@ -37,7 +37,7 @@ export const Content = () => {
                     We have a team of skilled veteran developers who<br/> exhibit amazing efficiency in their performance.<br/>With MerkLabs, you are in safe hands.  We<br/>understand your needs and give out a <br /> performance that matches your expectations.
                     </p>
                 </div>
-                <div id="explrDiv">
+                <div className="explrDiv">
                     <p>Explore More</p>
                 </div>
             </div>
@@ -82,14 +82,54 @@ export const Content = () => {
                     <div></div>
                     <div></div>
                 </div>
-                <p>The Desktop App Landing Page</p>
-                <p>A landing page for desktop app</p>
+                <p id="paraPrj1">The Desktop App Landing Page</p>
+                <p id="paraPrj2">A landing page for desktop app</p>
+                <div id="prjBtn1" className="explrDiv">
+                    <p>Explore More</p>
+                </div>
             </div>
 
 
-            <div className="projectsCard"></div>
-            <div className="projectsCard"></div>
-            <div className="projectsCard"></div>
+            <div className="projectsCard">
+            <div className="subPrjDiv">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p id="paraPrj3">The Desktop App Landing Page</p>
+                <p id="paraPrj4">A landing page for desktop app</p>
+                <div id="prjBtn2" className="explrDiv">
+                    <p>Explore More</p>
+                </div>
+            </div>
+
+
+            <div className="projectsCard">
+            <div className="subPrjDiv">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p id="paraPrj5">The Desktop App Landing Page</p>
+                <p id="paraPrj6">A landing page for desktop app</p>
+                <div id="prjBtn3" className="explrDiv">
+                    <p>Explore More</p>
+                </div>
+            </div>
+
+
+            <div className="projectsCard">
+            <div className="subPrjDiv">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p id="paraPrj7">The Desktop App Landing Page</p>
+                <p id="paraPrj8">A landing page for desktop app</p>
+                <div id="prjBtn4" className="explrDiv">
+                    <p>Explore More</p>
+                </div>
+            </div>
         </div>
 
         </div>
