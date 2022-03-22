@@ -25,9 +25,30 @@ export const Content = () => {
 
         <div className="container our_team">
             <div className="childCont2">
-                <h4>hello</h4>
+                <div >
+                    <p id="paraOurT1">OUR TEAM</p>
+                    <p id="paraOurT2">MEET THE TEAM OF BEST  DEVELOPERS:</p>
+                </div>
+                <div>
+                    <p id="paraOurT3">
+                    We have a team of skilled veteran developers who<br/> exhibit amazing efficiency in their performance.<br/>With MerkLabs, you are in safe hands.  We<br/>understand your needs and give out a <br /> performance that matches your expectations.
+                    </p>
+                </div>
+                <div id="explrDiv">
+                    <p>Explore More</p>
+                </div>
             </div>
-            <div className="childCont2"></div>
+            <div className="childCont2">
+                <div id="ourTCont2">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            <div id="overlapDiv">
+
+            </div>
+            </div>
+            
         </div>
 
         </div>
