@@ -1,6 +1,9 @@
 import "./styles.css";
 import VectorLeft from "../Images/VectorLeft.png";
 import VectorRight from "../Images/VectorRight.png";
+import btmpic from "../Images/btmpic.png";
+import toppic from "../Images/toppic.png";
+import VectorDown from "../Images/VectorDown.png";
 export const Content = () => {
     return (
         <div>
@@ -44,11 +47,51 @@ export const Content = () => {
                     <div></div>
                     <div></div>
                 </div>
+            <div id="bottomCircle">
+                <img src={btmpic} alt=""/>
+            </div>
             <div id="overlapDiv">
+                    <div id="topCircle">
+                        <img src={toppic} alt="" />
+                    </div>
+            </div>
+            </div>
+        </div>
 
+        <div id="projectSec">
+        
+        <div id="prjParas">
+
+        <div id="leftPrj">
+            <p>PROJECTS</p>
+            <p>We have completed many<br/>amazing projects that you<br/>will not believe</p>
+        </div>
+        <div id="rightPrj">
+            <div id="dropDown">
+                <p>Technology</p>
+                <img src={VectorDown} alt="" />
             </div>
+        </div>
+        </div>
+        <hr id="hr1"/>
+
+        <div id="projectCardCont">
+            <div className="projectsCard">
+                <div className="subPrjDiv">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p>The Desktop App Landing Page</p>
+                <p>A landing page for desktop app</p>
             </div>
-            
+
+
+            <div className="projectsCard"></div>
+            <div className="projectsCard"></div>
+            <div className="projectsCard"></div>
+        </div>
+
         </div>
 
         </div>
