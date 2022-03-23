@@ -4,6 +4,7 @@ import VectorRight from "../Images/VectorRight.png";
 import btmpic from "../Images/btmpic.png";
 import toppic from "../Images/toppic.png";
 import VectorDown from "../Images/VectorDown.png";
+import reviewpic from "../Images/reviewpic.png";
 export const Content = () => {
     return (
         <div>
@@ -170,6 +171,55 @@ export const Content = () => {
                     for concept in response.outputs[0].data.concepts:<br/>
                     print(concept.name + " " + str(concept.value))</p>
                 </div>
+            </div>
+        </div>
+
+        <div id="whyCont">
+            <div id="whymainPara">
+                <p>Why</p>
+                <p>WHY WE ARE THE BEST?</p>
+            </div>
+            <div id="subParaswhy">
+                <div className="subParasDiv">
+                    <p>WE UNDERSTAND YOUR NEEDS</p>
+                    <p>Merklabs totally relates to your concern and the significance<br/>, the security of smart contract carries , we comprehend the<br/>vulnerabilities and give out the promise of security through<br/>auditing it and removing all the errors of the smart contracts</p>
+                </div>
+                <div className="subParasDiv">
+                <p>WE VERIFY AND RECTIFY</p>
+                    <p>Verifying the vulnerabilities of the contract , we also provide<br/>the best suggestion for rectifications. Omitting out any bugs<br/>and making your smart contract error free .</p>
+                </div>
+                <div className="subParasDiv">
+                <p>WE HAVE ALL</p>
+                    <p>We not only provide you with security but also develop<br/>efficient smart contracts to suit your needs and<br/>requirements. Ranging from various categories we are here<br/>to assist the clients from creation of smart contracts to<br/>dApps and Defis.</p>
+                </div>
+                <div className="subParasDiv">
+                <p>WE ADD VALUE TO YOUR IDEAS</p>
+                    <p>Team Marklabs put in the best of its efforts to give out<br/>incredible results. We ensure and prioritize client satisfaction<br/>and exhibit results that match your expectations.Adding<br/>value to your projects is our ultimate goal.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="ourClient">
+            <p>Our Clien Review</p>
+            <p className="ourClienPara">Subscribe to our newsletter for daily/weekly</p> 
+            <p className="ourClienPara">update of our products and services.</p>
+        </div>
+        
+        <div id="reviewsDiv">
+            <div className="reviewsubDiv">
+                <p>01 FEB, 2019 | TECHNOLOGY</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting  text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <img src={reviewpic} alt="" />
+                <p>JOHN SMITH</p>
+                <p>Founder of Awesomeux Technology</p>
+            </div>
+            <div></div>
+            <div className="reviewsubDiv">
+            <p>01 FEB, 2019 | TECHNOLOGY</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting  text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <img src={reviewpic} alt="" />
+                <p id="john">JOHN SMITH</p>
+                <p id="founder">Founder of Awesomeux Technology</p>
             </div>
         </div>
         </div>

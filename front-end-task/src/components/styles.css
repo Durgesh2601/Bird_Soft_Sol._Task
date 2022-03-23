@@ -1,5 +1,5 @@
 *{
-    font-family: 'Montserrat';
+    font-family: 'Montserrat' ;
 }
 .banner{
     width: 85.063rem;
@@ -490,4 +490,168 @@
     color: white;
     font-size: 0.7rem;
     margin: 1% 0% 0% 3%;
+}
+#whyCont{
+    width: 61rem;
+    height: 35rem;
+    top: 280rem;
+    left: 16rem;
+    position: absolute;
+}
+#whymainPara{
+    height: 5.25rem;
+    width: 31.5rem;
+    position: absolute;
+    left: 12rem;
+}
+#whymainPara > p:nth-child(1) {
+    font-size: 1.4rem;
+    font-family: 'Noto Sans';
+    font-weight: 600;
+    line-height: 2rem;
+    color:#16FCD2;
+    position: absolute;
+    left: 15rem;
+}
+#whymainPara > p:nth-child(2) {
+    font-size: 1.4rem;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+    line-height: 3rem;
+    color:white;
+    position: absolute;
+    left: 8rem;
+    top: 1.6rem;
+}
+#subParaswhy{
+    height: 75%;
+    width: 100%;
+    position: absolute;
+    top:10rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subParasDiv{
+    width: 50%;
+    height: 48%;
+}
+.subParasDiv > p:nth-child(1) {
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    line-height: 3rem;
+}
+.subParasDiv > p:nth-child(2) {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 2rem;
+}
+/* after */
+
+#ourClient{
+    height: 12rem;
+    width: 24rem;
+    position: absolute;
+    top: 340rem;
+    left: 35rem;
+}
+#ourClient > p:nth-child(1) {
+    color: #618DFF;
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 4rem;
+    position: absolute;
+    left: 5rem;
+}
+.ourClienPara{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    position: absolute;
+}
+#ourClient > p:nth-child(3) {
+    position: absolute;
+    top: 8.5rem;
+    left: 2.7rem;
+}
+#reviewsDiv{
+    border: 1px solid red;
+    width: 85%;
+    height: 24rem;
+    position: absolute;
+    top: 360rem;
+    left: 6.4rem;
+    display: flex;
+}
+.reviewsubDiv{
+    border: 2px solid;
+    border-image-source: linear-gradient(334.88deg, #FFFFFF -17.63%, rgba(40, 26, 200, 0) 117.63%);
+    height: 19rem;
+    width: 30%;
+    margin-top: 3%;
+    background: linear-gradient(123.64deg, rgba(255, 255, 255, 0) -22.38%, rgba(255, 255, 255, 0.0312) 70.38%);
+    border-radius: 1.25rem;
+}
+.reviewsubDiv > p:nth-child(1){
+    color:#888888;
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0.2rem;
+}
+.reviewsubDiv > p:nth-child(2){
+    color: white;
+    font-size: 0.63rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+#reviewsDiv > div:nth-child(2) {
+    border: 1px solid red;
+    height: 22.3rem;
+    width: 40%;
+}
+.reviewsubDiv > img {
+    margin-left: 37%;
+}
+.reviewsubDiv > p:nth-child(4){
+    color: white;
+    font-size: 0.87rem;
+    font-weight: 500;
+    line-height: 1.68rem;
+    position: absolute;
+    left: 8rem;
+}
+.reviewsubDiv > p:nth-child(5){
+    color: #B6BCCC;
+    font-size: 0.68rem;
+    font-weight: 300;
+    line-height: 1.68rem;
+    position: absolute;
+    left: 5rem;
+    top: 18rem;
+}
+#john{
+    color: white;
+    font-size: 0.87rem;
+    font-weight: 500;
+    line-height: 1.68rem;
+    position: absolute;
+    right: 8rem;
+}
+#founder{
+    right: 5rem;
+    color: #B6BCCC;
+    font-size: 0.68rem;
+    font-weight: 300;
+    line-height: 1.68rem;
+    position: absolute;
+    top: 18rem;
 }
