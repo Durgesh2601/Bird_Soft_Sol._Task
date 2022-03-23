@@ -134,6 +134,44 @@ export const Content = () => {
 
         </div>
 
+        <div id="joinUsCont">
+            <div>
+                <div id="hr2"></div>
+                <p>Join Us</p>
+                <p id="para2JoinUs">BE A PART OF OUR<br/>HAPPY COMMUNITY</p>
+                <p id="para3JoinUs">We take immense pride in our<br/>achievements and have a happy and<br/>satisfied community that trusts our work<br/>wholeheartedly. Then what are you waiting<br/> for ,come and be a part of the merklabs<br/> family, because we are here always for you.</p>
+                <div id="JoinUsBtn1" className="explrDiv">
+                    <p>Explore More</p>
+                </div>
+            </div>
+            <div>
+                <div id="joinUSnav">
+                    <p>Node</p>
+                    <p>Java</p>
+                    <p>Curl</p>
+                </div>
+                <div id="codeJoinUs">
+                <p>response = stub.PostModelOutputs(<br/>
+                    service_pb2.PostModelOutputsRequest(<br/>
+                    model_id="{"THE_MODEL_ID"}",<br/>
+                    inputs=[<br/>
+                    resources_pb2.Input(<br/>
+                    data=resources_pb2.Data(<br/>
+                    image=resources_pb2.Image(<br/>
+                        url="https://samples.clarifai.com/metro-north.jpg"<br/>
+                    )<br/>
+                    )<br/>
+                    )<br/>
+                    ]<br/>
+                    ),<br/>
+                    metadata=metadata<br/>
+                    )<br/>
+                    print("Predicted concepts:")<br/>
+                    for concept in response.outputs[0].data.concepts:<br/>
+                    print(concept.name + " " + str(concept.value))</p>
+                </div>
+            </div>
+        </div>
         </div>
     )
 }
