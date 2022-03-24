@@ -129,7 +129,7 @@
 .explrDiv > p {
     color: #FFFFFF;
     font-size: 1.063rem;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.25rem;
     position: absolute;
     top: 1rem;
@@ -582,7 +582,6 @@
     left: 2.7rem;
 }
 #reviewsDiv{
-    border: 1px solid red;
     width: 85%;
     height: 24rem;
     position: absolute;
@@ -614,7 +613,6 @@
     letter-spacing: 0.1rem;
 }
 #reviewsDiv > div:nth-child(2) {
-    border: 1px solid red;
     height: 22.3rem;
     width: 40%;
 }
@@ -638,20 +636,236 @@
     left: 5rem;
     top: 18rem;
 }
-#john{
+#reviewsDiv2 {
+    border-radius: 1.25rem;
+    background: linear-gradient(123.64deg, rgba(255, 255, 255, 0) -22.38%, rgba(255, 255, 255, 0.0312) 70.38%);
+}
+#reviewsDiv2 > p:nth-child(1){
+    color:#888888;
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    top: 2.7rem;
+    left: 27rem;
+}
+#reviewsDiv2 > p:nth-child(2) {
+    color: white;
+    font-size: 0.63rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    position: absolute;
+    top: 5rem;
+    left: 28rem;
+}
+#reviewsDiv2 > img {
+    position: absolute;
+    bottom: 7rem;
+    left: 37.5rem;
+}
+#reviewsDiv2 > p:nth-child(4) {
+    position: absolute;
+    bottom: 4rem;
+    left: 35.5rem;
     color: white;
     font-size: 0.87rem;
     font-weight: 500;
     line-height: 1.68rem;
-    position: absolute;
-    right: 8rem;
 }
-#founder{
-    right: 5rem;
+#reviewsDiv2 > p:nth-child(5) {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 32rem;
     color: #B6BCCC;
     font-size: 0.68rem;
     font-weight: 300;
     line-height: 1.68rem;
+}
+#hr3{
+    width: 72%;
+    color: gray;
     position: absolute;
-    top: 18rem;
+    top: 410rem;
+    left: 10rem;
+}
+#contactDiv{
+    width: 72%;
+    margin: auto;
+    height: 35.6rem;
+    position: absolute;
+    top: 420rem;
+    left: 11rem;
+    display: flex;
+}
+.contact1{
+    width: 60%;
+    height: 99%;
+}
+.contact2{
+    width: 40%;
+    height: 99%;
+}
+.contact1 > p:nth-child(1){
+    position: absolute;
+    top: 5rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #16FCD2;
+    left: 5rem;
+}
+.contact1 > p:nth-child(2){
+    position: absolute;
+    top: 5rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: white;
+    left: 5rem;
+    position: absolute;
+    top: 7rem;
+}
+.callDiv{
+    width: 40%;
+    height: 5rem;
+    display: flex;
+    gap: 5%;
+    position: absolute;
+    bottom: 12rem;
+    left: 5rem;
+}
+.callDiv > div:nth-child(1){
+    width: 16%;
+    height:4rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.18rem;
+}
+.callDiv > div:nth-child(1) > img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.callDiv > div:nth-child(2) {
+    width: 50%;
+}
+#phone{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+    font-weight: 500;
+    position: absolute;
+    top: 0.5rem;
+}
+#num {
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+    position: absolute;
+    top: 1.7rem;
+}
+.msgDiv{
+    width: 80%;
+    height: 5rem;
+    display: flex;
+    gap: 5%;
+    position: absolute;
+    top: 6rem;
+    left: 0.1rem;
+    /* border: 1px solid white; */
+}
+.msgDiv > div:nth-child(1) {
+    width: 21%;
+    height:4rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 0.18rem;
+}
+.msgDiv > div:nth-child(1) > img:nth-child(1) {
+    position: absolute;
+    width: 10%;
+    top: 1rem;
+    left: 1.2rem;
+}
+.msgDiv > div:nth-child(1) > img:nth-child(2) {
+    position: absolute;
+    width: 10%;
+    top: 1rem;
+    left: 1.2rem;
+}
+.msgDiv > div:nth-child(2){
+    width: 70%;
+    height: 90%;
+}
+.msgDiv > div:nth-child(2) > p:nth-child(1) {
+    color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    font-size: 0.9rem;
+    font-weight: 500;
+    top: 0.4rem;
+}
+.msgDiv > div:nth-child(2) > p:nth-child(2) {
+    color: white;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 600;
+    top: 1.7rem;
+}
+.contact2{
+    height: 85%;
+    background:rgba(255, 255, 255, 0.05);
+    width: 39%;
+    border-radius: 0.87rem;
+    margin-top: 2%;
+}
+.contact2 > div:nth-child(1) > div:nth-child(1){
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25%;
+    margin-top: 8%;
+    margin-left: 2%;
+}
+.contact2 > div:nth-child(1) > div:nth-child(1) > p:nth-child(1){
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 6%;
+    margin-top: 2%;
+    font-size: 0.8rem;
+}
+.contact2 > div:nth-child(1) > div:nth-child(1) > p:nth-child(2){
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 2%;
+    font-size: 0.8rem;
+    margin-left: 6%;
+}
+.contact2 > div:nth-child(1) > div:nth-child(2) > input {
+    height: 2rem;
+    width: 9rem;
+    margin-left: 7%;
+    background:rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    outline: none;
+    border-radius: 3px;
+}
+.contact2 > p{
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 6.5%;
+    margin-top: 5%;
+    font-size: 0.8rem;
+}
+.contact2 > input {
+    width: 75%;
+    height: 2rem;
+    margin-left: 7%;
+    background:rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    outline: none;
+    border-radius: 3px;
+}
+#msginp{
+    height: 8rem;
+}
+#sendMsg{
+    height:3.3rem;
+    right: 10rem;
+    bottom: 5rem;
 }

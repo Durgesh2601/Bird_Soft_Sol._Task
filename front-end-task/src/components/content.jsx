@@ -5,6 +5,9 @@ import btmpic from "../Images/btmpic.png";
 import toppic from "../Images/toppic.png";
 import VectorDown from "../Images/VectorDown.png";
 import reviewpic from "../Images/reviewpic.png";
+import Vector from "../Images/Vector.png";
+import Vector1 from "../Images/Vector1.png";
+import Vector2 from "../Images/Vector2.png";
 export const Content = () => {
     return (
         <div>
@@ -213,14 +216,68 @@ export const Content = () => {
                 <p>JOHN SMITH</p>
                 <p>Founder of Awesomeux Technology</p>
             </div>
-            <div></div>
+            <div id="reviewsDiv2">
+                <p>01 FEB, 2019 | TECHNOLOGY</p>
+                <p>Lorem Ipsum is simply dummy text of the printing<br/>and typesetting  text ever since the 1500s, when an<br/> unknown printer took a galley of type and<br/>scrambled it to make a type specimen book.</p>
+                <img src={reviewpic} alt="" />
+                <p>JOHN SMITH</p>
+                <p>Founder of Awesomeux Technology</p>
+            </div>
             <div className="reviewsubDiv">
             <p>01 FEB, 2019 | TECHNOLOGY</p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting  text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <img src={reviewpic} alt="" />
-                <p id="john">JOHN SMITH</p>
-                <p id="founder">Founder of Awesomeux Technology</p>
             </div>
+        </div>
+        <hr id="hr3"/>
+
+        <div id="contactDiv">
+            <div className="contact1">
+                <p>CONTACT</p>
+                <p>We love receiving messages<br/>from you, we are waiting for<br/>it.</p>
+                <div className="callDiv">
+                    <div>
+                        <img src={Vector} alt=""/>
+                    </div>
+                    <div>
+                        <p id="phone">Phone</p> <br />
+                        <p id="num">+62 1234 8921</p>
+                    </div>
+                    <div className="msgDiv">
+                        <div>
+                            <img src={Vector1} alt="" />
+                            <img src={Vector2} alt="" />
+                        </div>
+                        <div>
+                            <p>Email</p>
+                            <p>support@MerkLabs.tld</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="contact2">
+                <div>
+                    <div>
+                    <p>Name</p>
+                    <p>Email</p>
+                    </div>
+                    <div>
+                    <input type="text" />
+                    <input type="text" />
+                    </div>
+                </div>
+                <p>Subject</p>
+                <input type="text" />
+                <p>Message</p>
+                <input id="msginp" type="text" />
+                <div id="sendMsg" className="explrDiv">
+                    <p>Send Messege</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="askDiv">
+            
         </div>
         </div>
     )
