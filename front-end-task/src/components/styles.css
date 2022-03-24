@@ -591,7 +591,8 @@
 .reviewsubDiv {
   border: 2px solid;
   border-image-source: linear-gradient(
-    334.88deg, -17.63%,
+    334.88deg,
+    #ffffff -17.63%,
     rgba(40, 26, 200, 0) 117.63%
   );
   height: 19rem;
