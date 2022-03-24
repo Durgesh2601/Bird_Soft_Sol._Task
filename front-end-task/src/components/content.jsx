@@ -277,7 +277,20 @@ export const Content = () => {
         </div>
 
         <div className="askDiv">
-            
+            <p>We've prepared everything, it's time<br/>for you to tell the problem</p>
+            <div id="sendQt" className="explrDiv">
+                <p>Send Quote</p>
+            </div>
+            <div id="ask" className="explrDiv">
+                <p>Ask</p>
+            </div>
+        </div>
+
+        <div id="lastDiv">
+            <div className="lastSbDiv"></div>
+            <div className="lastSbDiv"></div>
+            <div className="lastSbDiv"></div>
+            <div className="lastSbDiv"></div>
         </div>
         </div>
     )
